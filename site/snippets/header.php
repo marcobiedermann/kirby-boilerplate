@@ -17,7 +17,7 @@
 
     <div class="grid">
 
-      HEADER
+      <?php snippet('navigation'); ?>
 
     </div>
 
