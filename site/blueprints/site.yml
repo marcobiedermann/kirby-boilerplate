@@ -1,6 +1,9 @@
 title: Site
 
-pages: default
+pages:
+  template:
+    - default
+    - blog
 
 fields:
   title:
