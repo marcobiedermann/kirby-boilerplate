@@ -13,7 +13,7 @@
             <li>
               <article>
                 <h2><a href="<?= $article->url(); ?>"><?= $article->title(); ?></a></h2>
-                <?= $article->text()->kirbytext(); ?>
+                <?= excerpt($article->text(), $page->excerptLength()->int(), 'words'); ?>
               </article>
             </li>
           <?php endforeach; ?>
