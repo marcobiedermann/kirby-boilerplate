@@ -21,3 +21,9 @@ fields:
   copyright:
     label: Copyright
     type:  textarea
+
+  dateformat:
+    label: Date Format
+    type: text
+    placeholder: d/m/Y
+    help: "PHP date format: http://php.net/manual/en/function.date.php"

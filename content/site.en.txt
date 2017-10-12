@@ -2,8 +2,16 @@ Title: Kirby Starterkit
 
 ----
 
-Author: moovel
+Author: Marco Biedermann
 
 ----
 
 Description: This is Kirby's Starterkit.
+
+----
+
+Dateformat: d/m/Y
+
+----
+
+Copyright: 

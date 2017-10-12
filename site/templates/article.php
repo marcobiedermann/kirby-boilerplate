@@ -6,6 +6,7 @@
 
       <article>
         <h1><?= $page->title(); ?></h1>
+        <?= $article->date($site->dateformat()); ?>
         <?= $page->text()->kirbytext(); ?>
       </article>
 
