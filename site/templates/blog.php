@@ -6,10 +6,10 @@
 
       <h1><?= $page->title(); ?></h1>
 
-      <?php if ($page->children()->count()) : ?>
+      <?php if ($articles->count()) : ?>
 
         <ol>
-          <?php foreach($page->children() as $article) : ?>
+          <?php foreach($articles as $article) : ?>
             <li>
               <article>
                 <h2><a href="<?= $article->url(); ?>"><?= $article->title(); ?></a></h2>
@@ -18,6 +18,8 @@
             </li>
           <?php endforeach; ?>
         </ol>
+
+        <?php snippet('pagination'); ?>
 
       <?php endif; ?>
 
