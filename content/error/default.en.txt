@@ -1,0 +1,5 @@
+Title: Error
+
+----
+
+Text: Oops an error occurred. Go back to (link: / text: homepage)?
