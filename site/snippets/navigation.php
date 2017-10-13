@@ -2,7 +2,7 @@
   <ul>
     <?php foreach($pages->visible() as $item) : ?>
     <li>
-      <?php if ($item->isOpen()) : ?>
+      <?php if ($item->isActive()) : ?>
         <span><?= $item->title(); ?></span>
       <?php else: ?>
         <a href="<?= $item->url(); ?>"><?= $item->title(); ?></a>
