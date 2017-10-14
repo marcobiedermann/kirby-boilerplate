@@ -1,0 +1,25 @@
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__list {
+  margin: -0.5em;
+}
+
+.navigation__list--inline {
+  display: flex;
+}
+
+.navigation__item {
+  margin: 0.5em;
+}
+
+.navigation__link {
+  color: inherit;
+}
+
+.navigation__link--is-active {
+  color: var(--color-primary);
+}
