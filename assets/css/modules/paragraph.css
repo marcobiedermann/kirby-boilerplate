@@ -1,0 +1,9 @@
+:root {
+  --paragraph-margin-bottom: 1.5em;
+  --paragraph-margin-top: 0.5em;
+}
+
+p {
+  margin-bottom: var(--paragraph-margin-bottom);
+  margin-top: var(--paragraph-margin-top);
+}
