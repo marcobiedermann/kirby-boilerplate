@@ -1,0 +1,12 @@
+:root {
+  --horizontal-rule-margin-bottom: 1.5em;
+  --horizontal-rule-margin-top: 1.5em;
+}
+
+hr {
+  background-color: #ddd;
+  border: 0;
+  height: 1px;
+  margin-bottom: var(--horizontal-rule-margin-bottom);
+  margin-top: var(--horizontal-rule-margin-top);
+}
