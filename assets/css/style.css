@@ -4,6 +4,7 @@
 @import 'layout/main.css';
 
 @import 'modules/anchor.css';
+@import 'modules/breadcrumb.css';
 @import 'modules/navigation.css';
 
 @import 'themes/default.css';
