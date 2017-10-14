@@ -1,0 +1,18 @@
+:root {
+  --blockquote-margin-bottom: 1.5em;
+  --blockquote-margin-top: 0.5em;
+}
+
+blockquote {
+  margin-bottom: var(--blockquote-margin-bottom);
+  margin-top: var(--blockquote-margin-top);
+  quotes: '“' '”' '‘' '’';
+}
+
+blockquote p::before {
+  content: open-quote;
+}
+
+blockquote p::after {
+  content: close-quote;
+}
