@@ -3,6 +3,8 @@
 @import 'layout/header.css';
 @import 'layout/main.css';
 
+@import 'modules/anchor.css';
+
 @import 'themes/default.css';
 
 @import 'utilities/grid.css';
