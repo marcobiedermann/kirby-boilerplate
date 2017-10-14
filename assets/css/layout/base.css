@@ -1,0 +1,22 @@
+:root {
+  --body-font-family: var(--base-font-family);
+  --body-line-height: var(--base-line-height);
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--body-font-family);
+  line-height: var(--body-line-height);
+  margin: 0;
+  min-height: 100vh;
+}
