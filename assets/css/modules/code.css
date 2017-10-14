@@ -1,0 +1,11 @@
+:root {
+  --pre-margin-bottom: 1.5em;
+  --pre-margin-top: 0.5em;
+}
+
+pre {
+  margin-bottom: var(--pre-margin-bottom);
+  margin-top: var(--pre-margin-top);
+  overflow: auto;
+  white-space: pre-wrap;
+}
