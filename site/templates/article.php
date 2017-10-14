@@ -4,6 +4,8 @@
 
     <div class="grid">
 
+      <?php snippet('breadcrumb'); ?>
+
       <article>
         <h1><?= $page->title(); ?></h1>
         <?= $page->date($site->dateformat()); ?>

@@ -4,6 +4,8 @@
 
     <div class="grid">
 
+      <?php snippet('breadcrumb'); ?>
+
       <h1><?= $page->title(); ?></h1>
 
       <?php if ($articles->count()) : ?>

@@ -4,6 +4,8 @@
 
     <div class="grid">
 
+      <?php snippet('breadcrumb'); ?>
+
       <?php snippet('search'); ?>
 
       <?php if ($results->count()) : ?>
