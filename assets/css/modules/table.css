@@ -1,0 +1,21 @@
+:root {
+  --table-margin-bottom: 1.5em;
+  --table-margin-top: 0.5em;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: var(--table-margin-bottom);
+  margin-top: var(--table-margin-top);
+  width: 100%;
+}
+
+td,
+th {
+  vertical-align: top;
+}
+
+th {
+  text-align: left;
+}
