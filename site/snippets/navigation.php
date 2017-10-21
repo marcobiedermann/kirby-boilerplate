@@ -1,13 +1,16 @@
 <nav class="navigation">
   <ul class="navigation__list navigation__list--inline">
-    <?php foreach($pages->visible() as $item) : ?>
-    <li class="navigation__item">
-      <?php if ($item->isActive()) : ?>
-        <span class="navigation__link navigation__link--is-active"><?= $item->title(); ?></span>
-      <?php else: ?>
-        <a href="<?= $item->url(); ?>" class="navigation__link"><?= $item->title(); ?></a>
+    <?php $links = explode(', ', $site->navigation_main()); ?>
+    <?php foreach($links as $link) : ?>
+      <?php if (page($link)->isVisible()) : ?>
+        <li class="navigation__item">
+          <?php if (page($link)->isActive()) : ?>
+            <span class="navigation__link navigation__link--is-active"><?= page($link)->title(); ?></span>
+          <?php else: ?>
+            <a href="<?= page($link)->url(); ?>" class="navigation__link"><?= page($link)->title(); ?></a>
+          <?php endif; ?>
+        </li>
       <?php endif; ?>
-    </li>
     <?php endforeach ?>
 
     <?php foreach($site->languages() as $language): ?>
