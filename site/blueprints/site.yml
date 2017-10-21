@@ -18,6 +18,16 @@ fields:
     label: Description
     type:  textarea
 
+  favicon:
+    label: Favicon
+    type: image
+    help: min 32x32px
+
+  touch_icon:
+    label: Touch Icon
+    type: image
+    help: min 192x192px
+
   copyright:
     label: Copyright
     type:  textarea

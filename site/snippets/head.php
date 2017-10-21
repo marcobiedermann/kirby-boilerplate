@@ -12,6 +12,18 @@
     <?php endif; ?>
   <?php endforeach ?>
 
+  <?php  if ($image = $site->favicon()->toFile()) : ?>
+    <link rel="icon" type="image/png" href="<?= $image->resize(32, 32)->url(); ?>" />
+  <?php endif; ?>
+
+  <?php if ($image = $site->touch_icon()->toFile()) : ?>
+    <link rel="apple-touch-icon" href="<?= $image->resize(57, 57)->url(); ?>" />
+    <link rel="apple-touch-icon" href="<?= $image->resize(72, 72)->url(); ?>" sizes="72x72" />
+    <link rel="apple-touch-icon" href="<?= $image->resize(114, 114)->url(); ?>" sizes="114x114" />
+    <link rel="apple-touch-icon" href="<?= $image->resize(144, 144)->url(); ?>" sizes="144x144" />
+    <link rel="apple-touch-icon" href="<?= $image->resize(192, 192)->url(); ?>" sizes="192x192" />
+  <?php endif; ?>
+
   <?= css('assets/css/style.css') ?>
 
 </head>
