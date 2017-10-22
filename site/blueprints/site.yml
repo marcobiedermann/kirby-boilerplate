@@ -33,6 +33,10 @@ fields:
     type: image
     help: min 192x192px
 
+  logo:
+    label: Logo
+    type: image
+
   navigation:
     label: Navigation
     type: headline

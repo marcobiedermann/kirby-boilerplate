@@ -27,3 +27,7 @@ Touch-icon:
 ----
 
 Navigation-main: home, blog, search
+
+----
+
+Logo: 
