@@ -6,17 +6,22 @@ pages:
     - blog
 
 fields:
+
+  meta:
+    label: Meta
+    type: headline
+
   title:
     label: Title
-    type:  text
-
-  author:
-    label: Author
     type:  text
 
   description:
     label: Description
     type:  textarea
+
+  brand:
+    label: Brand
+    type: headline
 
   favicon:
     label: Favicon
@@ -28,16 +33,6 @@ fields:
     type: image
     help: min 192x192px
 
-  copyright:
-    label: Copyright
-    type:  textarea
-
-  dateformat:
-    label: Date Format
-    type: text
-    placeholder: d/m/Y
-    help: "PHP date format: http://php.net/manual/en/function.date.php"
-
   navigation:
     label: Navigation
     type: headline
@@ -47,3 +42,21 @@ fields:
     type: checkboxes
     options: query
     query: pages
+
+  footer:
+    label: Footer
+    type: headline
+
+  copyright:
+    label: Copyright
+    type:  textarea
+
+  blog:
+    label: Blog
+    type: headline
+
+  dateformat:
+    label: Date Format
+    type: text
+    placeholder: d/m/Y
+    help: "PHP date format: http://php.net/manual/en/function.date.php"
