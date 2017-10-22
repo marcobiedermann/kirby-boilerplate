@@ -15,3 +15,15 @@ Dateformat: d/m/Y
 ----
 
 Copyright: 
+
+----
+
+Favicon: 
+
+----
+
+Touch-icon: 
+
+----
+
+Navigation-main: home, blog, search
