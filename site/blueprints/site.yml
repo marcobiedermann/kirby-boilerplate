@@ -64,3 +64,8 @@ fields:
     type: text
     placeholder: d/m/Y
     help: "PHP date format: http://php.net/manual/en/function.date.php"
+
+  blog_comments_open:
+    label: Comments
+    type: checkbox
+    text: Enable Comments

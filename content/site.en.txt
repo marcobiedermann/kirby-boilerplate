@@ -31,3 +31,7 @@ Navigation-main: home, blog, search
 ----
 
 Logo: 
+
+----
+
+Blog-comments-open: 0
