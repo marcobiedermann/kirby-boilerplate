@@ -1,0 +1,23 @@
+.tags {
+  display: flex;
+  list-style: none;
+  margin: 1.25em -0.25em;
+  padding: 0;
+}
+
+.tags > li {
+  margin: 0.25em;
+}
+
+.tag {
+  border-radius: 0.25em;
+  border: 0.0625em solid #ddd;
+  font-size: 0.875em;
+  padding: 0.25em 0.5em;
+  transition: border-color 0.3s;
+}
+
+.tag:focus,
+.tag:hover {
+  border-color: #aaa;
+}

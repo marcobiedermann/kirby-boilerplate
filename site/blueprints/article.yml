@@ -22,6 +22,11 @@ fields:
     required: true
     width: 1/2
 
+  tags:
+    label: Tags
+    type: tags
+    lower: true
+
   text:
     label: Text
     type: textarea
