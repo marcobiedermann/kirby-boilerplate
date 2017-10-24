@@ -11,6 +11,8 @@ return function($site, $pages, $page) {
     $articles = $articles->filterBy('tags', $tag, ',');
   }
 
+  $tags = $articles->pluck('tags', ',', false);
+
   return [
     'articles'   => $articles,
     'pagination' => $articles->pagination(),
