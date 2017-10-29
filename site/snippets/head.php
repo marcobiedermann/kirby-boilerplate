@@ -16,6 +16,8 @@
     <link rel="icon" type="image/png" href="<?= $image->resize(32, 32)->url(); ?>" />
   <?php endif; ?>
 
+  <link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed'); ?>" title="Blog Feed" />
+
   <?php if ($image = $site->touch_icon()->toFile()) : ?>
     <link rel="apple-touch-icon" href="<?= $image->resize(57, 57)->url(); ?>" />
     <link rel="apple-touch-icon" href="<?= $image->resize(72, 72)->url(); ?>" sizes="72x72" />

@@ -38,6 +38,8 @@
 
         <?php snippet('pagination'); ?>
 
+        <p><a href="<?= url('blog/feed'); ?>">Subscribe to our RSS-feed</a></p>
+
       <?php endif; ?>
 
     </div>
