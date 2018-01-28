@@ -1,9 +1,9 @@
 [submodule "panel"]
-	path = panel
+	path = public/panel
 	url = https://github.com/getkirby/panel.git
 [submodule "kirby"]
-	path = kirby
+	path = public/kirby
 	url = https://github.com/getkirby/kirby.git
 [submodule "site/plugins/feed"]
-	path = site/plugins/feed
+	path = public/site/plugins/feed
 	url = https://github.com/getkirby-plugins/feed-plugin.git
