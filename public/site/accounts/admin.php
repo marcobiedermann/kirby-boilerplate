@@ -7,8 +7,8 @@ email: marco.biedermann@gmx.de
 language: en
 role: admin
 history:
+  - home
   - blog/feed
   - blog/article-1
   - search
-  - home
   - error

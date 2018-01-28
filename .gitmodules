@@ -7,3 +7,6 @@
 [submodule "public/site/plugins/feed"]
 	path = public/site/plugins/feed
 	url = https://github.com/getkirby-plugins/feed-plugin.git
+[submodule "public/site/fields/markdown"]
+	path = public/site/fields/markdown
+	url = https://github.com/JonasDoebertin/kirby-visual-markdown.git
