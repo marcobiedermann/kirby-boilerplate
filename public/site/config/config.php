@@ -17,3 +17,4 @@ c::set('languages', array(
     'url'     => '/de',
   ),
 ));
+c::set('language.detect', true);
