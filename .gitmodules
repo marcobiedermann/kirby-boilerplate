@@ -13,3 +13,6 @@
 [submodule "public/site/plugins/imagekit"]
 	path = public/site/plugins/imagekit
 	url = https://github.com/fabianmichael/kirby-imagekit.git
+[submodule "public/site/plugins/xml-sitemap"]
+	path = public/site/plugins/xml-sitemap
+	url = https://github.com/pedroborges/kirby-xml-sitemap.git

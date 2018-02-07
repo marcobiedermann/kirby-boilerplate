@@ -18,18 +18,3 @@ c::set('languages', array(
   ),
 ));
 c::set('language.detect', true);
-
-c::set('routes', array(
-  array(
-    'pattern' => 'sitemap.xml',
-    'action'  => function() {
-      return site()->visit('sitemap');
-    }
-  ),
-  array(
-    'pattern' => 'sitemap',
-    'action'  => function() {
-      return go('sitemap.xml');
-    }
-  )
-));
