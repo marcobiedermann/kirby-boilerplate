@@ -13,3 +13,6 @@
 [submodule "public/site/plugins/xml-sitemap"]
 	path = public/site/plugins/xml-sitemap
 	url = https://github.com/pedroborges/kirby-xml-sitemap.git
+[submodule "public/site/plugins/minifyhtml"]
+	path = public/site/plugins/minifyhtml
+	url = https://github.com/ian-cox/Kirby-MinifyHTML.git
