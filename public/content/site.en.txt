@@ -26,7 +26,7 @@ Touch-icon:
 
 ----
 
-Navigation-main: home, blog, search
+Navigation-main: home, blog, search, contact
 
 ----
 
@@ -35,3 +35,11 @@ Logo:
 ----
 
 Blog-comments-open: 0
+
+----
+
+Og-image: 
+
+----
+
+Twitter-image: 

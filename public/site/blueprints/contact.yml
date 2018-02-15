@@ -1,0 +1,39 @@
+title: Contact
+
+fields:
+  meta:
+    extends: meta
+
+  text:
+    label: Text
+    type:  markdown
+
+  contact:
+    label: Contact
+    type: headline
+
+  contact_to:
+    label: Contact to email address
+    type: text
+    required: true
+    translate: false
+    validate: email
+
+  contact_from:
+    label: Contact from email address
+    type: text
+    required: true
+    translate: false
+    validate: email
+
+  contact_subject:
+    label: Contact subject
+    type: text
+    required: true
+    translate: false
+
+  contact_redirect:
+    label: Contact redirect
+    type: page
+    required: true
+    translate: false

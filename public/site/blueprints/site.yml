@@ -2,8 +2,9 @@ title: Site
 
 pages:
   template:
-    - default
     - blog
+    - contact
+    - default
 
 fields:
 

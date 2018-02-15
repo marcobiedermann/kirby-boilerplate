@@ -1,0 +1,30 @@
+input,
+select,
+textarea {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+input[type='reset'],
+input[type='submit'] {
+  cursor: pointer;
+}
+
+textarea {
+  min-height: 6em;
+  resize: vertical;
+}
+
+.form input[type='email'],
+.form input[type='tel'],
+.form input[type='text'],
+.form input[type='url'],
+.form select,
+.form textarea {
+  padding: 0.25em 0.5em;
+  width: 100%;
+}
