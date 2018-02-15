@@ -3,9 +3,8 @@ title: Article
 pages: false
 
 fields:
-  title:
-    label: Title
-    type:  title
+  meta:
+    extends: meta
 
   coverimage:
     label: Cover Image

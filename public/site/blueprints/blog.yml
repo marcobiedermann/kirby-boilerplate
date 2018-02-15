@@ -13,11 +13,8 @@ options:
 icon: newspaper-o
 
 fields:
-  title:
-    label: Title
-    type: title
-    required: true
-    width: 3/4
+  meta:
+    extends: meta
 
   perpage:
     label: Posts per page

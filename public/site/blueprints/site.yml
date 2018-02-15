@@ -8,30 +8,23 @@ pages:
 fields:
 
   meta:
-    label: Meta
-    type: headline
+    extends: meta
+    fields:
+      favicon:
+        label: Favicon
+        type:  image
+        help: Image must be at least 32 x 32 pixels
+        translate: false
 
-  title:
-    label: Title
-    type:  text
-
-  description:
-    label: Description
-    type:  textarea
+      touch_icon:
+        label: Touch Icon
+        type:  image
+        help: Image must be at least 192 x 192 pixels
+        translate: false
 
   brand:
     label: Brand
     type: headline
-
-  favicon:
-    label: Favicon
-    type: image
-    help: min 32x32px
-
-  touch_icon:
-    label: Touch Icon
-    type: image
-    help: min 192x192px
 
   logo:
     label: Logo

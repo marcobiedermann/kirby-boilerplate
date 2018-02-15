@@ -1,0 +1,29 @@
+type: group
+fields:
+  meta:
+    label: Meta
+    type: headline
+
+  title:
+    label: Title
+    type:  text
+    help: Unique speaking title of the site in max. 72 characters
+    validate:
+      maxLength: 72
+
+  description:
+    label: Description
+    type:  text
+    help: Unique description of the site in max. 160 characters
+    validate:
+      maxLength: 160
+
+  og_image:
+     label: OG Image
+     type: image
+     help: Use images that are at least 1200 x 630 pixels for the best display on high resolution devices. At the minimum, you should use images that are 600 x 315 pixels to display link page posts with larger images. Images can be up to 8MB in size. https://developers.facebook.com/docs/sharing/best-practices#images
+
+  twitter_image:
+     label: Twitter Image
+     type: image
+     help: A URL to a unique image representing the content of the page. You should not use a generic image such as your website logo, author photo, or other image that spans multiple pages. Images for this Card support an aspect ratio of 2:1 with minimum dimensions of 300x157 or maximum of 4096x4096 pixels. Images must be less than 5MB in size. JPG, PNG, WEBP and GIF formats are supported. Only the first frame of an animated GIF will be used. SVG is not supported. https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image
