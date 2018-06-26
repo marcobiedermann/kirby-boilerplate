@@ -8,7 +8,7 @@ c::set('languages', array(
     'name'    => 'English',
     'default' => true,
     'locale'  => 'en_US',
-    'url'     => '/',
+    'url'     => '/en',
   ),
   array(
     'code'    => 'de',
