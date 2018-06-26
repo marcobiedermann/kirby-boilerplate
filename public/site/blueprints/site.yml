@@ -1,11 +1,5 @@
 title: Site
 
-pages:
-  template:
-    - blog
-    - contact
-    - default
-
 fields:
 
   meta:

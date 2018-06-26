@@ -1,3 +1,5 @@
+
+
 <nav class="navigation">
   <ul class="navigation__list navigation__list--inline">
     <?php $links = explode(', ', $site->navigation_main()); ?>
@@ -9,6 +11,11 @@
           <?php else: ?>
             <a href="<?= page($link)->url(); ?>" class="navigation__link"><?= page($link)->title(); ?></a>
           <?php endif; ?>
+          <?php
+            snippet('submenu', [
+              'children' => page($link)->children(),
+            ]);
+          ?>
         </li>
       <?php endif; ?>
     <?php endforeach ?>
