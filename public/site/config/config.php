@@ -1,21 +1,22 @@
 <?php
 
-c::set('license', 'put your license key here');
-
-c::set('languages', array(
-  array(
-    'code'    => 'en',
-    'name'    => 'English',
-    'default' => true,
-    'locale'  => 'en_US',
-    'url'     => '/en',
-  ),
-  array(
-    'code'    => 'de',
-    'name'    => 'Deutsch',
-    'locale'  => 'de_DE',
-    'url'     => '/de',
-  ),
-));
-c::set('language.detect', true);
-c::set('thumbs.driver', 'im');
+c::set([
+  'license'         => 'put your license key here',
+  'languages'       => [
+    [
+      'code'    => 'en',
+      'name'    => 'English',
+      'default' => true,
+      'locale'  => 'en_US',
+      'url'     => '/en',
+    ],
+    [
+      'code'    => 'de',
+      'name'    => 'Deutsch',
+      'locale'  => 'de_DE',
+      'url'     => '/de',
+    ],
+  ],
+  'language.detect' => true,
+  'thumbs.driver'   => 'im'
+]);

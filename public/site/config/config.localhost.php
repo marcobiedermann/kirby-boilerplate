@@ -1,4 +1,6 @@
 <?php
 
-c::set('debug', true);
-c::set('MinifyHTML', true);
+c::set([
+  'debug'      => true,
+  'MinifyHTML' => true
+]);
